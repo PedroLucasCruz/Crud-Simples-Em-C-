@@ -1,0 +1,23 @@
+﻿@model WebApplication1.Models.Usuario
+
+@using (Html.BeginForm())
+{
+    
+        <div class="container">
+
+            <div class="form-group">
+                <label>Username</label>
+                @Html.TextBoxFor(x => x.Username, new { @class = "form-control" })
+            </div>
+
+            <div class="form-group">
+                <label>PassWord</label>
+                @Html.TextBoxFor(x => x.Passaword, new { @class = "form-control"})
+            </div>
+
+            <div class="button">
+                <button> submit </button>
+            </div>
+
+        </div>
+}
