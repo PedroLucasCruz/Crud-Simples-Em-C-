@@ -10,6 +10,7 @@ namespace WebApplication1.Controllers
     public class RegistroController : Controller
     {
         BaseDedadosEntities db = new BaseDedadosEntities();
+        string varlor = "passou";
         // GET: Registro
         public ActionResult SetDatainDataBase() //Aqui vai o nome da View que você criou
         {
